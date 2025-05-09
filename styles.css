@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #fdf6f0;
+    padding: 2rem;
+  }
+  
+  h1 {
+    margin-bottom: 2rem;
+  }
+  
+  #puppy-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .puppy-card {
+    border: 2px solid #ccc;
+    padding: 1rem;
+    border-radius: 12px;
+    background: #fff;
+    width: 220px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .puppy-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background: #ffb347;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #ffa233;
+  }
+  
